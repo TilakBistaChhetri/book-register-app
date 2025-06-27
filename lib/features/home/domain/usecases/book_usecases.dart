@@ -11,3 +11,6 @@ class BookUseCases {
   Future<void> updateBook(Book book) => repository.updateBook(book);
   Future<void> deleteBook(String id) => repository.deleteBook(id);
 }
+
+
+
